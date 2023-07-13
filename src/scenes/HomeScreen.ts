@@ -62,13 +62,11 @@ export class HomeScreen extends AScene {
     }
 
     private _play() {
-        // alert('clicked')
         this._audio.pause();
         this._timeline.kill();
         this._ready.alpha = 1;
         gsap.to(this._ready, {
             y: -this._ready.height, onComplete: () => {
-                //console.log("animation finished")
                 Main.instance.scene = new Game();
             }
         })
