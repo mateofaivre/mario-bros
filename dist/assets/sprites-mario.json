@@ -42,26 +42,6 @@
 		},
 		"goomba-base.png": {
 			"frame": {
-				"x": 1923,
-				"y": 1,
-				"w": 80,
-				"h": 85
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 80,
-				"h": 85
-			},
-			"sourceSize": {
-				"w": 80,
-				"h": 85
-			}
-		},
-		"goomba-base2.png": {
-			"frame": {
 				"x": 2005,
 				"y": 1,
 				"w": 80,
@@ -100,7 +80,7 @@
 				"h": 85
 			}
 		},
-		"goomba-droite2.png": {
+		"goomba-right.png": {
 			"frame": {
 				"x": 2169,
 				"y": 1,
@@ -123,26 +103,6 @@
 		"goomba-gauche.png": {
 			"frame": {
 				"x": 1923,
-				"y": 88,
-				"w": 80,
-				"h": 85
-			},
-			"rotated": false,
-			"trimmed": false,
-			"spriteSourceSize": {
-				"x": 0,
-				"y": 0,
-				"w": 80,
-				"h": 85
-			},
-			"sourceSize": {
-				"w": 80,
-				"h": 85
-			}
-		},
-		"goomba-gauche2.png": {
-			"frame": {
-				"x": 2005,
 				"y": 88,
 				"w": 80,
 				"h": 85
@@ -240,7 +200,7 @@
 				"h": 85
 			}
 		},
-		"mario-marche.png": {
+		"mario-walk.png": {
 			"frame": {
 				"x": 2114,
 				"y": 185,
@@ -300,7 +260,7 @@
 				"h": 102
 			}
 		},
-		"mario-w-ombre.png": {
+		"mario-shadow.png": {
 			"frame": {
 				"x": 2026,
 				"y": 282,

@@ -34,7 +34,7 @@ export class Player extends AObjectAnimated {
         this._isJumping = true;
         gsap.to(this, {
             duration: 0.5,
-            y: 640,
+            y: 660,
             yoyo: true,
             repeat: 1,
             ease: "sine.out",
